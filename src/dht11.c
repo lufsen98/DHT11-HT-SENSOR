@@ -118,4 +118,4 @@ float dht11_get_temperature(const dht11_t *dht) {
 
 float dht11_get_humidity(const dht11_t *dht) {
     return dht->humidity;
-}(
+}

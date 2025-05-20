@@ -1,8 +1,9 @@
-include "pico/stdlib.h"
+#include "pico/stdlib.h"
+#include <stdio.h>
 #include "dht11.h"
 
 // Define the GPIO pin connected to DHT11 data pin
-#define DHT11_PIN 15
+#define DHT11_PIN 18 
 
 int main() {
     // Initialize standard library
